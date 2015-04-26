@@ -21,6 +21,8 @@ Then clone this repository:
 sudo git clone https://github.com/scheibler/ncmpc-lyrics-plugins.git /usr/lib/ncmpc/lyrics/
 ```
 
+Alternatively you can clone into a user space folder and link the script files to the lyrics plugin folder.
+
 Then start ncmpc and change to the lyrics page by pressing "7". Besides that, you also can use the
 plugins without ncmpc. For example:
 
