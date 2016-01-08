@@ -1,0 +1,3 @@
+08.01.2016:
+- removed 01-lyricwiki.rm script cause it stopped working
+- instead replaced it by 01-lyricwiki.py

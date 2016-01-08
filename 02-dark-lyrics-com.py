@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
 #  Load metal lyrics from darklyrics.com
@@ -39,10 +39,6 @@ if args.artist == "":
 if args.title == "":
     print "Song title missing"
     sys.exit(1)
-
-file = open("/tmp/lyrics_out", "a")
-file.write("%s -- %s\n" % (args.artist, args.title))
-file.close()
 
 # load results page
 result_page = download_page("%s/search?q=%s+%s" % (base_url, \
